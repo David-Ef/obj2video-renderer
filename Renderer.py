@@ -6,13 +6,11 @@
 # Comment:
 # ---------------------------------
 
-from pprint import pprint
-from pathlib import Path
-from pyrr import Matrix44
-
 from PIL import Image
 import numpy as np
 
+# pip install pyrr
+from pyrr import Matrix44
 # pip install pywavefront
 import pywavefront
 # pip install PyOpenGL
@@ -21,7 +19,7 @@ from OpenGL.GL import *
 
 import moderngl
 import moderngl_window as mglw
-from moderngl_window import screenshot
+# from moderngl_window import screenshot
 from moderngl_window.scene.camera import OrbitCamera
 
 RENDER_SIZE = (256, 256) # Web visualisation 

@@ -17,4 +17,6 @@ pip install PyOpenGL
 
 pip install pywavefront
 pip install ffmpeg-python
+
+pip install pyrr
 ```
